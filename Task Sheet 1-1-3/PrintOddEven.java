@@ -13,9 +13,6 @@ public class PrintOddEven {
                 System.out.println(i + " is Odd Number");
 
             }
-
         }
-
     }
-
 }
