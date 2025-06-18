@@ -20,12 +20,12 @@ public class Toy {
         System.out.println(toy1.price);
     }
 }
-class Fruit{}
-class Fruit2{}
-class Fruit3{}
-class Fruit4{
-    public static void main(String[] args) {
-        System.out.println("I am Fruit 4");
-        Fruit f3 = new Fruit();
-    }
+    class Fruit{}
+    class Fruit2{}
+    class Fruit3{}
+    class Fruit4{
+        public static void main(String[] args) {
+            System.out.println("I am Fruit 4");
+            Fruit f3 = new Fruit();
+        }
 }

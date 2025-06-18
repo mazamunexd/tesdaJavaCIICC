@@ -23,14 +23,14 @@ public class MainBasic{
          */
     }
 }
-class Car{
-    int year;
-    String make;
-    String model;
-    String color;
-}
-class Basic2{
-    MainBasic mb;
-    Car car1 = new Car();
-    Car car2 = new Car();
-}
+    class Car{
+        int year;
+        String make;
+        String model;
+        String color;
+    }
+    class Basic2{
+        MainBasic mb;
+        Car car1 = new Car();
+        Car car2 = new Car();
+    }
