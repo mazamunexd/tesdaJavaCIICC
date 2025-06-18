@@ -7,7 +7,7 @@ public class PrimitivesLesson {
         byte b =1;
         float f = 3.14F;
         double d = 5.1D;
-        long i = 56l;
+        long i = 56L;
         char a = 4;
         System.out.println(a);
     }
