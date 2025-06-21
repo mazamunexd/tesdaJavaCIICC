@@ -33,6 +33,7 @@ public class ArithmeticTask {
 
         }
 
+        // Modulus
         int modulus = a % b; 
             System.out.println("Remainder: " + modulus);
 
