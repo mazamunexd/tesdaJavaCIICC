@@ -19,3 +19,5 @@ public class b {
         scanner.close();
     }
 }
+
+//wr output
