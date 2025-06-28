@@ -74,7 +74,6 @@ public class ArithmeticTask {
         int max = (a > b) ? a : b;
         System.out.println("Maximum No.: " + max);
         int min = (a < b) ? a : b;
-        System.out.println("Minimum No.: " + min);
-        
+        System.out.println("Minimum No.: " + min);  
     } 
 }
