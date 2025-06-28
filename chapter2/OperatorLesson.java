@@ -31,12 +31,12 @@ public class OperatorLesson {
         System.out.println(a && b); // Logical AND
         System.out.println(a || b); // Logical OR
         System.out.println(!a);      // Logical NOT
-     // shift ops
+
+        // shift ops
         System.out.println(2<<2);
         System.out.println(15>>1);
         //0 0 1 0
         //8 4 2 1
-
         //01 1 1 1 
         System.out.println(+3 + +6);
         int s = 0;
