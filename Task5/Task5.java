@@ -29,3 +29,32 @@ public class Task5 {
         scanner.close();
     }
 }
+
+/* 
+// short version? aye 
+
+package Task5;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Task5 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        for (int i = 0; i < 3; i++) {
+            System.out.print("Enter number " + (i + 1) + ": ");
+            numbers.add(scanner.nextInt());
+        }
+
+        if (numbers.stream().distinct().count() == 1) {
+            System.out.println("All numbers are equal");
+        } else {
+            System.out.println("Largest number: " + numbers.stream().max(Integer::compare).get());
+        }
+
+        scanner.close();
+    }
+}
+*/
