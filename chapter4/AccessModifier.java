@@ -1,5 +1,7 @@
 package chapter4;
 
+import java.util.Scanner;
+
 public class AccessModifier {
     public void greetMe(){
         System.out.println("Hello from JAVA people");
@@ -86,3 +88,44 @@ class SSS {
      
     }
 }
+
+
+
+ class ArithmeticOperations {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public double divide(int a, int b) {
+        if (b == 0) {
+            System.out.println("Cannot divide by zero.");
+            return 0;
+        }
+        return (double) a / b;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        ArithmeticOperations ops = new ArithmeticOperations();
+
+        System.out.print("Enter first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Addition: " + ops.add(num1, num2));
+        System.out.println("Subtraction: " + ops.subtract(num1, num2));
+        System.out.println("Multiplication: " + ops.multiply(num1, num2));
+        System.out.println("Division: " + ops.divide(num1, num2));
+    }
+ }
