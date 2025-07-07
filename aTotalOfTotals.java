@@ -28,12 +28,6 @@ public class aTotalOfTotals {    public static void main(String[] args) {
         
         System.out.println("\nTotal of all sums: " + totalSum);
         
-        int sumOfTotals = sumNumbers(5) + sumNumbers(6) + sumNumbers(7);
-        System.out.println("Sum of all the total totals: " + sumOfTotals);
-    }
-    
-    private static int sumNumbers(int n) {
-        return n * (n + 1) / 2;
     }
 }
 
