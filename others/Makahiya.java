@@ -1,4 +1,4 @@
-package otherFolder.a;
+package others;
 
 public class Makahiya {
     

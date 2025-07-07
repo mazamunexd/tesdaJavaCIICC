@@ -1,4 +1,4 @@
-package otherFolder.a;
+package others;
 import java.util.*;
 
 public class test{

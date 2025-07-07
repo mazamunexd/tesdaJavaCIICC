@@ -1,4 +1,5 @@
-package otherFolder;
+package others;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;

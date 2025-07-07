@@ -1,4 +1,4 @@
-package otherFolder;
+package others;
 
 public class SunFlower {
     

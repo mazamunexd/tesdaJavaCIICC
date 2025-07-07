@@ -1,7 +1,6 @@
 package chapter1;
 import java.util.*;
 
-import otherFolder.SunFlower;
 /** 
  * this is a sample class for CIICC batch 3
  */
@@ -11,7 +10,6 @@ public class MainBasic{
         Random r = new Random();
         Toy toy4 = new Toy();
         Fruit f1 = new Fruit();
-        SunFlower sf = new SunFlower();
         // this is a single line comment
 
         /*
