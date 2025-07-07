@@ -1,4 +1,5 @@
-public class aTotalOfTotals {    public static void main(String[] args) {
+package Task8;
+public class Task8 {    public static void main(String[] args) {
         int totalSum = 0;
         
         System.out.println("Numbers 1 to 3:");
@@ -27,12 +28,6 @@ public class aTotalOfTotals {    public static void main(String[] args) {
         totalSum += thirdSum;
         
         System.out.println("\nTotal of all sums: " + totalSum);
-        
-<<<<<<< HEAD
-=======
-    private static int sumNumbers(int n) {
-        return n * (n + 1) / 2;
->>>>>>> refs/remotes/origin/main
     }
 }
 
