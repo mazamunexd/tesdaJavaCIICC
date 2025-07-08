@@ -1,5 +1,6 @@
 package Task8;
-public class Task8 {    public static void main(String[] args) {
+public class Task8 {    
+    public static void main(String[] args) {
         int totalSum = 0;
         
         System.out.println("Numbers 1 to 3:");
@@ -42,6 +43,7 @@ class sumsVarArgs {
 
     public static int numbersToSum(int... numbers) {
         int totalSum = 0;
+        System.out.println();
         System.out.println("The Numbers: ");
 
         for (int number : numbers) {
