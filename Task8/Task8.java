@@ -44,7 +44,7 @@ class sumsVarArgs {
     public static int numbersToSum(int... numbers) {
         int totalSum = 0;
         System.out.println();
-        System.out.println("The Numbers: ");
+        System.out.println(" The Numbers: ");
 
         for (int number : numbers) {
             totalSum += number;
@@ -52,10 +52,10 @@ class sumsVarArgs {
             for (int i = 1; i <= number; i++) {
                 sumsAll += i;
             }
-            System.out.println("  The Number: " + number + ", Total sum of (1 to " + number + "): " + sumsAll);
+            System.out.println("   The Number: " + number + ", Total sum of (1 to " + number + "): " + sumsAll);
         }
 
-        System.out.println("Total sum of all Numbers: " + totalSum);
+        System.out.println(" Total sum of all Numbers: " + totalSum);
         System.out.println();
         return totalSum;
     }
