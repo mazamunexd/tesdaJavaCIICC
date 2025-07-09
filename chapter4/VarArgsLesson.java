@@ -1,4 +1,4 @@
-package chapter4;
+
 import static java.util.Arrays.asList;
 import java.util.Collection;
 
