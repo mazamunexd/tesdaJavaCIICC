@@ -38,31 +38,31 @@ public class Task9 {
         // Add
 				System.out.println("Addition:");
         System.out.println(num1 + " + " + num2 + " = " + add(num1, num2));
-        System.out.println(num1 + " + " + num2 + " = " + add(num3, num4));
-        System.out.println(num1 + " + " + num2 + " = " + add(num1, num3));
-        System.out.println(num1 + " + " + num2 + " = " + add(num1, num4));
+        System.out.println(num3 + " + " + num4 + " = " + add(num3, num4));
+        System.out.println(num1 + " + " + num3 + " = " + add(num1, num3));
+        System.out.println(num1 + " + " + num4 + " = " + add(num1, num4));
 				System.out.println();
         // Subtract
 				System.out.println("Subtraction:");
-        System.out.println(num1 + " - " + num3 + " = " + subtract(num1, num2));
-        System.out.println(num1 + " - " + num3 + " = " + subtract(num2, num3));
-        System.out.println(num1 + " - " + num3 + " = " + subtract(num3, num4));
-        System.out.println(num1 + " - " + num3 + " = " + subtract(num1, num4));
+        System.out.println(num1 + " - " + num2 + " = " + subtract(num1, num2));
+        System.out.println(num2 + " - " + num3 + " = " + subtract(num2, num3));
+        System.out.println(num3 + " - " + num4 + " = " + subtract(num3, num4));
+        System.out.println(num1 + " - " + num4 + " = " + subtract(num1, num4));
 				System.out.println();
         // Multiply
 				System.out.println("Multiplication:");
-        System.out.println(num2 + " * " + num3 + " = " + multiply(num1, num2));
+        System.out.println(num1 + " * " + num2 + " = " + multiply(num1, num2));
         System.out.println(num2 + " * " + num3 + " = " + multiply(num2, num3));
-        System.out.println(num2 + " * " + num3 + " = " + multiply(num3, num4));
-        System.out.println(num2 + " * " + num3 + " = " + multiply(num4, num1));
+        System.out.println(num3 + " * " + num4 + " = " + multiply(num3, num4));
+        System.out.println(num4 + " * " + num1 + " = " + multiply(num4, num1));
 				System.out.println();
         // Divide
 				System.out.println("Division:");
         System.out.println(num1 + " / " + num2 + " = " + divide(num1, num2));
-        System.out.println(num1 + " / " + num2 + " = " + divide(num2, num3));
+        System.out.println(num2 + " / " + num3 + " = " + divide(num2, num3));
         System.out.println(num1 + " / " + num2 + " = " + divide(num1, num2));
-        System.out.println(num3 + " / " + num4 + " = " + divide(num1, num4));
-        System.out.println(num3 + " / " + num4 + " = " + divide(num1, num5)); 
+        System.out.println(num1 + " / " + num4 + " = " + divide(num1, num4));
+        System.out.println(num1 + " / " + num5 + " = " + divide(num1, num5)); 
 				System.out.println();
     }
 }
