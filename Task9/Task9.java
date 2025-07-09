@@ -18,7 +18,8 @@ public class Task9 {
 
     public static float divide(int a, int b) {
         if (b == 0) {
-            System.out.println("Error: Division by zero.");
+            System.out.println("Error: Cannot divide zero.");
+						throw new IllegalArgumentException("Division by zero is not allowed.");
         }
         return floorDiv(a, b);
     }
