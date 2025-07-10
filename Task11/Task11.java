@@ -1,6 +1,6 @@
 package Task11;
 
-public class Book {
+class Book {
 	private String title;
 	private String author;
 	private int yearPublished;
@@ -33,4 +33,8 @@ public class Book {
 		System.out.println("\nBook 3:");
 		System.out.println(book3);
 	}
+}
+
+public class Task11 {
+	
 }
