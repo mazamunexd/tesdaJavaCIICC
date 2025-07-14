@@ -175,7 +175,7 @@ public class BankSystem {
                 System.out.println("| Please try again.                       |");
                 System.out.println("===========================================");
                 System.out.println();
-            }
+              }
             break;
           case 4:
             System.out.print("Enter recipient username: ");
@@ -217,7 +217,7 @@ public class BankSystem {
                   System.out.println("| Transfer failed. Insufficient funds or invalid amount. |");
                   System.out.println("==========================================================");
                   System.out.println();
-              }
+                }
             } else {
               System.out.println();
               System.out.println("================================");
