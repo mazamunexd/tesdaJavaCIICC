@@ -31,3 +31,50 @@ public class Main {
         scanner.close();
     }
 }
+
+class Main2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+        int height = scanner.nextInt();
+        boolean hasAdult = scanner.nextBoolean();
+
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 1; j++) {
+                if (age < 12) {
+                    System.out.println("Sorry, you're too young");
+                } else {
+                    if (height <= 150) {
+                        System.out.println("Sorry, you're not tall enough");
+                    } else {
+                        if (age < 15) {
+                            if (hasAdult) {
+                                System.out.println("You can ride with adult supervision!");
+                            } else {
+                                System.out.println("Sorry, you need an adult with you");
+                            }
+                        } else {
+                            System.out.println("You can ride by yourself!");
+                        }
+                    }
+                }
+            }
+        }
+        scanner.close();
+    }
+}
+
+class Main3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String rnd = scanner.nextLine();
+        
+        // Write your code below
+        System.out.printf("The input is: %s ", rnd);
+        scanner.close();
+    }
+}
+
+class Main4 {
+    
+}
