@@ -1,3 +1,4 @@
+package chapter5;
 public class InheritanceLesson{
     public static void main(String[] args) {
         FinalParent p1 = new FinalParent();
